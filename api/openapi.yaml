@@ -1,0 +1,34 @@
+openapi: "3.0.0"
+
+info:
+  title: Pricehunters
+  version: "1.0"
+servers:
+  - url: http://localhost:5000/v1.0
+
+paths:
+  /health:
+    get:
+      summary: Health endpoint
+      description: Check if service is up and running
+      operationId: application.handler_health
+      responses:
+        200:
+          description: get service health status
+          content:
+            application/json:
+              schema:
+                type: object
+  /stores/:
+    get:
+      summary: List stores
+      description: List the current supported stores
+      operationId: application.handler_get_stores
+      responses:
+        200:
+          description: return list of stores
+          content:
+            application/json:
+              schema:
+                type: object
+          

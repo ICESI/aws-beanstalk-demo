@@ -1,0 +1,4 @@
+connexion==2.6.0
+swagger_ui_bundle==0.0.5
+flask-cors==3.0.8
+awsebcli==3.17.1
