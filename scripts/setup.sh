@@ -7,10 +7,10 @@ VERSION=$(eb --version)
 echo $VERSION
 
 # Environment variables
-ENVIRONMENT='pricehunters-integration-env'
+ENVIRONMENT='pricehunters-production-env'
 APPLICATION_NAME='pricehunters'
 REGION='us-east-1'
-PROFILE='integration'
+PROFILE='production'
 PLATFORM='python-3.6'
 
 # Create init files
