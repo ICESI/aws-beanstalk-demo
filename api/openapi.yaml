@@ -21,7 +21,7 @@ paths:
                 type: object
   /stores/:
     get:
-      summary: List stores
+      summary: List all stores
       description: List the current supported stores
       operationId: application.handler_get_stores
       responses:
