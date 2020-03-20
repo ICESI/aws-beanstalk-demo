@@ -3,7 +3,7 @@ name: pricehunters
 env:
   EB_PACKAGE_S3_BUCKET_NAME: pricehunters-artifacts
   EB_APPLICATION_NAME: pricehunters
-  EB_ENVIRONMENT_NAME: pricehunters-production-env 
+  EB_ENVIRONMENT_NAME: pricehunters-prod-env 
   DEPLOY_PACKAGE_NAME: flask-app-${{ github.sha }}.zip
   AWS_REGION_NAME: us-east-1
 
